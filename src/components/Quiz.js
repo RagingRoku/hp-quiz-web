@@ -5,6 +5,8 @@ import Question from './Question';
 
 class Quiz extends Component {
   constructor(props) {
+    super(props);
+
     this.renderAnswerOptions = this.renderAnswerOptions.bind(this);
   }
 
@@ -14,9 +16,9 @@ class Quiz extends Component {
         key={key.content}
         answerContent={key.content}
         answerType={key.type}
-        answer={props.answer}
-        questionId={props.questionId}
-        onAnswerSelected={props.onAnswerSelected}
+        answer={this.props.answer}
+        questionId={this.props.questionId}
+        onAnswerSelected={this.props.onAnswerSelected}
       />
     );
   }
@@ -25,12 +27,12 @@ class Quiz extends Component {
     return (
       <div className="quiz">
         <QuestionCount
-          counter={props.questionId}
-          total={props.questionTotal}
+          counter={this.props.questionId}
+          total={this.props.questionTotal}
         />
-        <Question content={props.question} />
+        <Question content={this.props.question} />
         <ul className="answerOptions">
-          {props.answerOptions.map(this.renderAnswerOptions)}
+          {this.props.answerOptions.map(this.renderAnswerOptions)}
         </ul>
       </div>
     );
