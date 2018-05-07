@@ -20,16 +20,16 @@ const quizQuestions = [
       question: "What do they make at Grunnings?",
       answers: [
           {
-              type: "Microsoft",
-              content: "X-Box"
+              type: "right",
+              content: "Drills"
           },
           {
-              type: "Nintendo",
-              content: "Nintendo 64"
+              type: "wrong",
+              content: "Carpets"
           },
           {
-              type: "Sony",
-              content: "Playstation 1"
+              type: "wrong",
+              content: "Wands"
           }
       ]
   },
@@ -37,16 +37,16 @@ const quizQuestions = [
       question: "What shape are Professor Dumbledore's glasses?",
       answers: [
           {
-              type: "Microsoft",
-              content: "Forza"
+              type: "wrong",
+              content: "Full-Moon"
           },
           {
-              type: "Nintendo",
-              content: "Mario Kart"
+              type: "wrong",
+              content: "Crescent-Moon"
           },
           {
-              type: "Sony",
-              content: "Gran Turismo"
+              type: "right",
+              content: "Half-Moon"
           }
       ]
   },
@@ -54,16 +54,16 @@ const quizQuestions = [
       question: "What shape are Professor McGonagall's glasses?",
       answers: [
           {
-              type: "Microsoft",
-              content: "BioShock"
+              type: "right",
+              content: "Square"
           },
           {
-              type: "Nintendo",
-              content: "The Legend of Zelda: Ocarina of Time"
+              type: "wrong",
+              content: "Oval"
           },
           {
-              type: "Sony",
-              content: "Final Fantasy VII"
+              type: "wrong",
+              content: "Circular"
           }
       ]
   },
@@ -71,16 +71,16 @@ const quizQuestions = [
       question: "What is one of Dumbledore's favorite Muggle candies?",
       answers: [
           {
-              type: "Microsoft",
-              content: "X-Box One"
+              type: "wrong",
+              content: "Toffee"
           },
           {
-              type: "Nintendo",
-              content: "Wii U"
+              type: "right",
+              content: "Lemondrops"
           },
           {
-              type: "Sony",
-              content: "Playstation 4"
+              type: "wrong",
+              content: "Jelly Beans"
           }
       ]
   }
