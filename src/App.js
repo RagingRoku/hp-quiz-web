@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
-import Question from './components/Question';
-import Quiz from './components/Quiz';
-import hallows from './hallows.png';
-import './App.css';
-import quizQuestions from './api/quizQuestions';
-import update from 'immutability-helper';
+import React, { Component } from "react";
+import Quiz from "./components/Quiz";
+import Result from "./components/Result";
+
+import hallows from "./hallows.png";
+import "./App.css";
+import quizQuestions from "./api/quizQuestions";
+import update from "immutability-helper";
 
 class App extends Component {
   constructor(props) {
@@ -13,30 +14,34 @@ class App extends Component {
     this.state = {
       counter: 0,
       questionId: 1,
-      question: '',
+      question: "",
       answerOptions: [],
-      answer: '',
-      answersCount:{
+      answer: "",
+      answersCount: {
         right: 0,
-        wrong: 0,
+        wrong: 0
       },
-      result: '',
+      result: ""
     };
 
     this.handleAnswerSelected = this.handleAnswerSelected.bind(this);
     this.setUserAnswer = this.setUserAnswer.bind(this);
     this.setNextQuestion = this.setNextQuestion.bind(this);
+    this.getResults = this.getResults.bind(this);
+    this.setResults = this.setResults.bind(this);
+    this.renderQuiz = this.renderQuiz.bind(this);
+    this.renderResult = this.renderResult.bind(this);
     // this.shuffleArray = this.shuffleArray.bind(this);
   }
 
   setUserAnswer(answer) {
     let updatedAnswerCount = update(this.state.answersCount, {
-      [answer]: {$apply : currentValue => currentValue + 1}
+      [answer]: { $apply: currentValue => currentValue + 1 }
     });
 
     this.setState({
-      answersCount: '',
-      answer: answer,
+      answersCount: updatedAnswerCount,
+      answer: answer
     });
   }
 
@@ -48,8 +53,8 @@ class App extends Component {
       questionId,
       question: quizQuestions[counter].question,
       answerOptions: quizQuestions[counter].answers,
-      answer: '',
-    })
+      answer: ""
+    });
   }
 
   handleAnswerSelected(event) {
@@ -58,9 +63,52 @@ class App extends Component {
     if (this.state.questionId < quizQuestions.length) {
       setTimeout(() => this.setNextQuestion(), 300);
     } else {
-
+      setTimeout(() => this.setResults(this.getResults()), 300);
     }
   }
+
+  getResults() {
+    const answersCount = this.state.answersCount;
+    const answersCountKeys = Object.keys(answersCount);
+    const answersCountValues = answersCountKeys.map(key => answersCount[key]);
+    const maxAnswersCount = Math.max.apply(null, answersCountValues);
+
+    return answersCountKeys.filter(
+      key => answersCount[key] === maxAnswersCount
+    );
+  }
+
+  setResults(result) {
+    if (result.length === 1) {
+      this.setState({
+        result: result[0]
+      });
+    } else {
+      this.setState({
+        result: "Undetermined"
+      });
+    }
+  }
+
+  renderQuiz() {
+    return (
+      <Quiz
+        answer={this.state.answer}
+        answerOptions={this.state.answerOptions}
+        questionId={this.state.questionId}
+        question={this.state.question}
+        questionTotal={quizQuestions.length}
+        onAnswerSelected={this.handleAnswerSelected}
+      />
+    );
+  }
+
+  renderResult() {
+    return (
+      <Result quizResult={this.state.result} />
+    );
+  }
+
   // shuffleArray(array) {
   //   let currentIndex = array.length;
   //   let temporaryValue;
@@ -82,8 +130,8 @@ class App extends Component {
 
     this.setState({
       question: quizQuestions[0].question,
-      answerOptions: answers[0],
-    })
+      answerOptions: answers[0]
+    });
   }
 
   render() {
@@ -91,16 +139,15 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={hallows} className="App-logo" alt="logo" />
-          <h1 className="App-title">Harry Potter and the Sorcer's Stone Quiz</h1>
+          <h1 className="App-title">
+            Harry Potter and the Sorcer's Stone Quiz
+          </h1>
+          {
+            this.state.result
+              ? this.renderResult()
+              : this.renderQuiz()
+          }
         </header>
-        <Quiz
-          answer={this.state.answer}
-          answerOptions={this.state.answerOptions}
-          questionId={this.state.questionId}
-          question={this.state.question}
-          questionTotal={quizQuestions.length}
-          onAnswerSelected={this.handleAnswerSelected}
-        />
       </div>
     );
   }
