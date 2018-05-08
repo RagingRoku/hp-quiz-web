@@ -10,6 +10,9 @@ function Result({ answersCount, quizResult }) {
         You got <strong>{percentage}%</strong>, mostly{" "}
         <strong>{quizResult}</strong> answers!{" "}
       </p>
+      <button className="resetButton" onClick={() => window.location = '/'}>
+        Try Again
+      </button>
     </div>
   );
 }
