@@ -1,9 +1,15 @@
-import React from 'react';
+import React from "react";
 
-function Result(props) {
+function Result({ answersCount, quizResult }) {
+  let decimal = answersCount.correct / (answersCount.correct + answersCount.wrong);
+  let percentage = decimal * 100;
+
   return (
     <div className="result">
-      You got mostly <strong>{props.quizResult}</strong> answers!
+      <p>
+        You got <strong>{percentage}%</strong>, mostly{" "}
+        <strong>{quizResult}</strong> answers!{" "}
+      </p>
     </div>
   );
 }

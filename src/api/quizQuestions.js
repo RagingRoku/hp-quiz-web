@@ -3,7 +3,7 @@ const quizQuestions = [
       question: "Where does Mr. Dursley work?",
       answers: [
           {
-              type: "right",
+              type: "correct",
               content: "Grunnings"
           },
           {
@@ -20,7 +20,7 @@ const quizQuestions = [
       question: "What do they make at Grunnings?",
       answers: [
           {
-              type: "right",
+              type: "correct",
               content: "Drills"
           },
           {
@@ -45,7 +45,7 @@ const quizQuestions = [
               content: "Crescent-Moon"
           },
           {
-              type: "right",
+              type: "correct",
               content: "Half-Moon"
           }
       ]
@@ -54,7 +54,7 @@ const quizQuestions = [
       question: "What shape are Professor McGonagall's glasses?",
       answers: [
           {
-              type: "right",
+              type: "correct",
               content: "Square"
           },
           {
@@ -75,7 +75,7 @@ const quizQuestions = [
               content: "Toffee"
           },
           {
-              type: "right",
+              type: "correct",
               content: "Lemondrops"
           },
           {
