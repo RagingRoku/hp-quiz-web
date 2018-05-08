@@ -3,12 +3,11 @@ import Gif from "./Gif";
 
 function Result({ answersCount, quizResult }) {
   let decimal = answersCount.correct / (answersCount.correct + answersCount.wrong);
-  let percentage = decimal * 100;
-
+  let percentage = (decimal * 100);
   return (
     <div className="result">
       <p>
-        You got <strong>{percentage}%</strong>, mostly{" "}
+        You got <strong>{percentage.toFixed(2)}%</strong>, mostly{" "}
         <strong>{quizResult}</strong> answers!{" "}
       </p>
       <Gif percentage={percentage} />
