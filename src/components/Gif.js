@@ -74,7 +74,7 @@ class Gif extends Component {
     } else if (percentage >= 90.0 && percentage <= 99.99) {
       return (
         <div>
-          <p>The art of cramming is paying off! Good job Potter.</p>
+          <p>The art of cramming is paying off! Good job, Potter.</p>
           <iframe
             src="https://giphy.com/embed/26BRzozg4TCBXv6QU"
             width="280"
@@ -85,10 +85,13 @@ class Gif extends Component {
           />
         </div>
       );
-    } else if (percentage === 100) {
+    } else if (percentage === 100.0) {
       return (
         <div>
-          <p>What a true Hermione! Congratulations, you've won!</p>
+          <p>
+            What a true Hermione! Congratulations, you've won!{" "}
+            <span role="img" aria-label="party">🎉</span>
+          </p>
           <iframe
             src="https://giphy.com/embed/N5byr13yA8gIo"
             width="280"
