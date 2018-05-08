@@ -141,3 +141,8 @@ body {
 .resetButton:focus {
   background-color: #e5cce5;
 }
+
+.giphy-embed {
+  justify-content: center;
+  align-content: center;
+}
