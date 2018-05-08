@@ -18,7 +18,7 @@ class App extends Component {
       answerOptions: [],
       answer: "",
       answersCount: {
-        right: 0,
+        correct: 0,
         wrong: 0
       },
       result: ""
@@ -61,9 +61,9 @@ class App extends Component {
     this.setUserAnswer(event.target.value);
 
     if (this.state.questionId < quizQuestions.length) {
-      setTimeout(() => this.setNextQuestion(), 300);
+      setTimeout(() => this.setNextQuestion(), 200);
     } else {
-      setTimeout(() => this.setResults(this.getResults()), 300);
+      setTimeout(() => this.setResults(this.getResults()), 200);
     }
   }
 
@@ -105,7 +105,10 @@ class App extends Component {
 
   renderResult() {
     return (
-      <Result quizResult={this.state.result} />
+      <Result
+      answersCount={this.state.answersCount}
+      quizResult={this.state.result}
+      />
     );
   }
 
@@ -143,17 +146,11 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={hallows} className="App-logo" alt="logo" />
-          <h1 className="App-title">
-            The Ultimate Harry Potter Quiz
-          </h1>
+          <h1 className="App-title">The Ultimate Harry Potter Quiz</h1>
           <p className="App-quote">
             "Well, we were always going to fail that one." ~ R. Weasley
           </p>
-          {
-            this.state.result
-              ? this.renderResult()
-              : this.renderQuiz()
-          }
+          {this.state.result ? this.renderResult() : this.renderQuiz()}
         </header>
       </div>
     );
