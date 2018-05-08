@@ -1,4 +1,5 @@
 import React from "react";
+import Gif from "./Gif";
 
 function Result({ answersCount, quizResult }) {
   let decimal = answersCount.correct / (answersCount.correct + answersCount.wrong);
@@ -10,6 +11,8 @@ function Result({ answersCount, quizResult }) {
         You got <strong>{percentage}%</strong>, mostly{" "}
         <strong>{quizResult}</strong> answers!{" "}
       </p>
+      <Gif percentage={percentage} />
+      <br />
       <button className="resetButton" onClick={() => window.location = '/'}>
         Try Again
       </button>
