@@ -31,7 +31,7 @@ class App extends Component {
     this.setResults = this.setResults.bind(this);
     this.renderQuiz = this.renderQuiz.bind(this);
     this.renderResult = this.renderResult.bind(this);
-    // this.shuffleArray = this.shuffleArray.bind(this);
+    this.shuffleArray = this.shuffleArray.bind(this);
   }
 
   setUserAnswer(answer) {
@@ -109,28 +109,32 @@ class App extends Component {
     );
   }
 
-  // shuffleArray(array) {
-  //   let currentIndex = array.length;
-  //   let temporaryValue;
-  //   let randomIndex;
+  shuffleArray(array) {
+    // Fisher-Yates shuffle
+    let m = array.length;
+    let temp;
+    let idx;
 
-  //   // while (0 !== currentIndex) {
-  //   //   randomIndex = Math.floor(Math.random() * currentIndex);
-  //   //   currentIndex = -1;
+    // While there remains elements to shuffle
+    while (m) {
+      // Pick a remaining element
+      idx = Math.floor(Math.random() * m--);
 
-  //   //   temporaryValue = array[currentIndex];
-  //   //   array[currentIndex] = array[randomIndex];
-  //   //   array[randomIndex] = temporaryValue;
-  //   // }
-  //   return array;
-  // }
+      // Swap it with the current element
+      temp = array[m];
+      array[m] = array[idx];
+      array[idx] = temp;
+    }
+
+    return array;
+  }
 
   componentWillMount() {
-    let answers = quizQuestions.map(q => q.answers);
+    let shuffledAnswers = quizQuestions.map(q => this.shuffleArray(q.answers));
 
     this.setState({
       question: quizQuestions[0].question,
-      answerOptions: answers[0]
+      answerOptions: shuffledAnswers[0]
     });
   }
 
@@ -140,8 +144,11 @@ class App extends Component {
         <header className="App-header">
           <img src={hallows} className="App-logo" alt="logo" />
           <h1 className="App-title">
-            Harry Potter and the Sorcer's Stone Quiz
+            The Ultimate Harry Potter Quiz
           </h1>
+          <p className="App-quote">
+            "Well, we were always going to fail that one." ~ R. Weasley
+          </p>
           {
             this.state.result
               ? this.renderResult()
