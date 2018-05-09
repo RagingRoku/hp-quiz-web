@@ -15,6 +15,17 @@ function Result({ answersCount, quizResult }) {
       <button className="resetButton" onClick={() => window.location = '/'}>
         Try Again
       </button>
+      <footer>
+          <br />
+          <p>
+            Made by{" "}
+            <a href="https://alfonsomillan.com">
+              <span role="img" aria-label="wizard">
+                🧙
+              </span>
+            </a>
+          </p>
+        </footer>
     </div>
   );
 }
