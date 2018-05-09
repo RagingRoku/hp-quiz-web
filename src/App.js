@@ -106,8 +106,8 @@ class App extends Component {
   renderResult() {
     return (
       <Result
-      answersCount={this.state.answersCount}
-      quizResult={this.state.result}
+        answersCount={this.state.answersCount}
+        quizResult={this.state.result}
       />
     );
   }
@@ -146,10 +146,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={hallows} className="App-logo" alt="logo" />
-          <h1 className="App-title">The Ultimate Harry Potter Quiz</h1>
-          <p className="App-quote">
-            "Well, we were always going to fail that one." ~ R. Weasley
-          </p>
+          <h2 className="App-title">Harry Potter and the Ultimate Quiz</h2>
           {this.state.result ? this.renderResult() : this.renderQuiz()}
         </header>
       </div>

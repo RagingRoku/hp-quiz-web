@@ -78,21 +78,6 @@ body {
     line-height: 1.5;
 }
 
-.radioCustomButton ~ .radioCustomLabel:before {
-    position: absolute;
-    top: 20px;
-    left: 38px;
-    width: 28px;
-    height: 28px;
-    content: '';
-    display: inline-block;
-    vertical-align: middle;
-    background: #fff;
-    border: 1px solid #bbb;
-    border-radius: 50%;
-    transition: all 0.3s;
-}
-
 /* Animation */
 .fade-enter {
     opacity: 0;
