@@ -5,15 +5,14 @@
 body {
   margin: 0;
   padding: 0;
-  background: #eee;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: #EFEFEF;
+  font-family: 'Permanent Marker', cursive;
 }
 
 .container {
   position: relative;
   max-width: 800px;
   margin: 0 auto;
-  background: #fff;
   border-radius: 3px;
 }
 
@@ -35,12 +34,6 @@ body {
   list-style: none;
 }
 
-/* QuestionCount Component */
-.questionCount {
-  padding: 1.5rem 2.5rem 0;
-  font-size: 14px;
-}
-
 /* Question Component */
 .question {
   margin: 0;
@@ -53,7 +46,7 @@ body {
 }
 
 .answerOption:hover {
-  background-color: #eefbfe;
+  background-color: #CAEBF2;
 }
 
 .radioCustomButton {
@@ -67,6 +60,7 @@ body {
     display: inline-block;
     vertical-align: middle;
     cursor: pointer;
+    color: crimson;
 }
 
 .radioCustomLabel {
@@ -74,40 +68,8 @@ body {
     width: 100%;
     margin: 0;
     padding: 1.5rem 2.5rem 1.5rem 5rem;
-    font-size: 16px;
+    font-size: 24px;
     line-height: 1.5;
-}
-
-/* Animation */
-.fade-enter {
-    opacity: 0;
-}
-
-.fade-enter.fade-enter-active {
-    opacity: 1;
-    transition: opacity 0.5s ease-in-out 0.3s;
-}
-
-.fade-leave {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    opacity: 1;
-}
-
-.fade-leave.fade-leave-active {
-    opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-}
-
-.fade-appear {
-    opacity: 0;
-}
-
-.fade-appear.fade-appear-active {
-    opacity: 1;
-    transition: opacity 0.5s ease-in-out;
 }
 
 .resetButton {

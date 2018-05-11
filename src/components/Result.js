@@ -18,7 +18,7 @@ function Result({ answersCount, quizResult }) {
       <footer>
           <br />
           <p>
-            Made by{" "}
+            Made with code and magic by{" "}
             <a href="https://alfonsomillan.com">
               <span role="img" aria-label="wizard">
                 🧙

@@ -871,6 +871,108 @@ const quizQuestions = [
       }
     ]
   },
+  {
+    question: "Which house is Justin Finch-Fletchly in?",
+    answers: [
+      {
+        type: "correct",
+        content: "Hufflepuff"
+      },
+      {
+        type: "wrong",
+        content: "Slytherin"
+      },
+      {
+        type: "wrong",
+        content: "Ravenclaw"
+      }
+    ]
+  },
+  {
+    question: "If he hadn't gone to Hogwarts, where would Justin Finch-Fletchly have attended?",
+    answers: [
+      {
+        type: "correct",
+        content: "Eton"
+      },
+      {
+        type: "wrong",
+        content: "Smeltings"
+      },
+      {
+        type: "wrong",
+        content: "King's School"
+      }
+    ]
+  },
+  {
+    question: "What is Gilderoy Lockhart's favorite color?",
+    answers: [
+      {
+        type: "correct",
+        content: "Lilac"
+      },
+      {
+        type: "wrong",
+        content: "Lavender"
+      },
+      {
+        type: "wrong",
+        content: "Cerise"
+      }
+    ]
+  },
+  {
+    question: "How many times was Nearless Headless Nick hit with a blunt axe?",
+    answers: [
+      {
+        type: "correct",
+        content: "45"
+      },
+      {
+        type: "wrong",
+        content: "25"
+      },
+      {
+        type: "wrong",
+        content: "42"
+      }
+    ]
+  },
+  {
+    question: "Fred bewitches Percy's Prefect badge to read what?",
+    answers: [
+      {
+        type: "correct",
+        content: "Pinhead"
+      },
+      {
+        type: "wrong",
+        content: "Birdbrain"
+      },
+      {
+        type: "wrong",
+        content: "Dork"
+      }
+    ]
+  },
+  {
+    question: "How many O.W.L.s do Bill and Percy each receive?",
+    answers: [
+      {
+        type: "correct",
+        content: "12"
+      },
+      {
+        type: "wrong",
+        content: "13"
+      },
+      {
+        type: "wrong",
+        content: "10"
+      }
+    ]
+  },
 ];
 
 function shuffleArray(array) {
