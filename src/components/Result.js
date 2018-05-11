@@ -7,7 +7,7 @@ function Result({ answersCount, quizResult }) {
   return (
     <div className="result">
       <p>
-        You got <strong>{percentage.toFixed(2)}%</strong>, mostly{" "}
+        You got <strong className="score">{percentage.toFixed(2)}%</strong>, mostly{" "}
         <strong>{quizResult}</strong> answers!{" "}
       </p>
       <Gif percentage={percentage} />

@@ -680,7 +680,7 @@ const quizQuestions = [
     ]
   },
   {
-    question: "What are Basilisks' also commonly referred to as?",
+    question: "What are Basilisks also commonly referred to as?",
     answers: [
       {
         type: "wrong",
@@ -970,6 +970,70 @@ const quizQuestions = [
       {
         type: "wrong",
         content: "10"
+      }
+    ]
+  },
+  {
+    question: "What is Ron's Quidditch team?",
+    answers: [
+      {
+        type: "correct",
+        content: "Chudley Cannons"
+      },
+      {
+        type: "wrong",
+        content: "Appelby Arrows"
+      },
+      {
+        type: "wrong",
+        content: "Banchory Bangers"
+      }
+    ]
+  },
+  {
+    question: "True or False: The Chamber of Secrets was opened in T.M. Riddle's 5th year.",
+    answers: [
+      {
+        type: "correct",
+        content: "True"
+      },
+      {
+        type: "wrong",
+        content: "False"
+      },
+    ]
+  },
+  {
+    question: "In book 3, How many Galleons do the Weasley's win for The Daily Prophet's Grand Prize?",
+    answers: [
+      {
+        type: "correct",
+        content: "700 Galleons"
+      },
+      {
+        type: "wrong",
+        content: "500 Galleons"
+      },
+      {
+        type: "wrong",
+        content: "1,000 Galleons"
+      }
+    ]
+  },
+  {
+    question: "How many dogs does Aunt Marge have?",
+    answers: [
+      {
+        type: "correct",
+        content: "12"
+      },
+      {
+        type: "wrong",
+        content: "7"
+      },
+      {
+        type: "wrong",
+        content: "9"
       }
     ]
   },
