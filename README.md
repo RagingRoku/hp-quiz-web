@@ -12,7 +12,7 @@ through book 7.
 - visit [http://localhost:3000/](http://localhost:3000/)
 
 ## Visit the deployed site
-- visit [http://localhost:3000/](Placeholder)
+- visit [Placeholder](http://localhost:3000/)
 
 ## TODO:
 - [ ] Deploy on Heroku

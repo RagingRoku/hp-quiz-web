@@ -1037,6 +1037,640 @@ const quizQuestions = [
       }
     ]
   },
+  {
+    question: "What is the name of Fleur's sister?",
+    answers: [
+      {
+        type: "correct",
+        content: "Gabrielle"
+      },
+      {
+        type: "wrong",
+        content: "Olympe"
+      },
+      {
+        type: "wrong",
+        content: "Penelope"
+      }
+    ]
+  },
+  {
+    question: "What is Hagrid's mother's name?",
+    answers: [
+      {
+        type: "correct",
+        content: "Fridwulfa"
+      },
+      {
+        type: "wrong",
+        content: "Brianne"
+      },
+      {
+        type: "wrong",
+        content: "Olympe"
+      }
+    ]
+  },
+  {
+    question: "Which band did Dumbledore book for the Yule Ball?",
+    answers: [
+      {
+        type: "correct",
+        content: "The Weird Sisters"
+      },
+      {
+        type: "wrong",
+        content: "The Black Sisters"
+      },
+      {
+        type: "wrong",
+        content: "The Butterbeer Experience"
+      }
+    ]
+  },
+  {
+    question: "How many barrells of mulled mead did Dumbledore buy for the Yule Ball?",
+    answers: [
+      {
+        type: "correct",
+        content: "800"
+      },
+      {
+        type: "wrong",
+        content: "1,000"
+      },
+      {
+        type: "wrong",
+        content: "777"
+      }
+    ]
+  },
+  {
+    question: "What curse was Sirius going to suggest to Harry for him to get past the dragon task?",
+    answers: [
+      {
+        type: "correct",
+        content: "The Conjunctivitus Curse"
+      },
+      {
+        type: "wrong",
+        content: "The Blasting Curse"
+      },
+      {
+        type: "wrong",
+        content: "The Expulso Curse"
+      }
+    ]
+  },
+  {
+    question: "Which dragon type does Krum draw for the dragon task?",
+    answers: [
+      {
+        type: "correct",
+        content: "Chinese Fireball"
+      },
+      {
+        type: "wrong",
+        content: "Norwegian Ridgeback"
+      },
+      {
+        type: "wrong",
+        content: "Welsh Green"
+      }
+    ]
+  },
+  {
+    question: "Who was the caretaker when Molly and Arthur were at Hogwarts?",
+    answers: [
+      {
+        type: "correct",
+        content: "Apollyon Pringle"
+      },
+      {
+        type: "wrong",
+        content: "Hankerton Humble"
+      },
+      {
+        type: "wrong",
+        content: "Rancorous Carpe"
+      }
+    ]
+  },
+  {
+    question: "What do Madam Maxine's horses only drink?",
+    answers: [
+      {
+        type: "correct",
+        content: "Single Malt Whiskey"
+      },
+      {
+        type: "wrong",
+        content: "Butterbeer"
+      },
+      {
+        type: "wrong",
+        content: "Sparkling Water"
+      }
+    ]
+  },
+  {
+    question: "How many Sickles does it cost to join S.P.E.W?",
+    answers: [
+      {
+        type: "correct",
+        content: "2"
+      },
+      {
+        type: "wrong",
+        content: "1"
+      },
+      {
+        type: "wrong",
+        content: "5"
+      }
+    ]
+  },
+  {
+    question: "The Triwizard Tournament includes a prize of how many Galleons?",
+    answers: [
+      {
+        type: "correct",
+        content: "1,000"
+      },
+      {
+        type: "wrong",
+        content: "5,000"
+      },
+      {
+        type: "wrong",
+        content: "500"
+      }
+    ]
+  },
+  {
+    question: "Who is the campsite manager at the Quidditch Worldcup?",
+    answers: [
+      {
+        type: "correct",
+        content: "Mr. Roberts"
+      },
+      {
+        type: "wrong",
+        content: "Mr. Bermudez"
+      },
+      {
+        type: "wrong",
+        content: "Mr. Flechley"
+      }
+    ]
+  },
+  {
+    question: "Who was the Riddles' gardener?",
+    answers: [
+      {
+        type: "correct",
+        content: "Frank Bryce"
+      },
+      {
+        type: "wrong",
+        content: "Luke Mage"
+      },
+      {
+        type: "wrong",
+        content: "Thomas Ang"
+      }
+    ]
+  },
+  {
+    question: "How tall is Grawp?",
+    answers: [
+      {
+        type: "correct",
+        content: "16 ft"
+      },
+      {
+        type: "wrong",
+        content: "13 ft"
+      },
+      {
+        type: "wrong",
+        content: "15 ft"
+      }
+    ]
+  },
+  {
+    question: "What is the branch name of obscure magic that protects ones mind against external penetration?",
+    answers: [
+      {
+        type: "correct",
+        content: "Occlumency"
+      },
+      {
+        type: "wrong",
+        content: "Legilimency"
+      },
+      {
+        type: "wrong",
+        content: "Divination"
+      }
+    ]
+  },
+  {
+    question: "According to Luna, what is mistletoe often infected with?",
+    answers: [
+      {
+        type: "correct",
+        content: "Nargles"
+      },
+      {
+        type: "wrong",
+        content: "Thestral"
+      },
+      {
+        type: "wrong",
+        content: "Bowtruckle"
+      }
+    ]
+  },
+  {
+    question: "What is the name of Hagrid's favorite Thestral?",
+    answers: [
+      {
+        type: "correct",
+        content: "Tenebrus"
+      },
+      {
+        type: "wrong",
+        content: "Appa"
+      },
+      {
+        type: "wrong",
+        content: "Omnibras"
+      }
+    ]
+  },
+  {
+    question: "Who replaces Harry as Seeker?",
+    answers: [
+      {
+        type: "correct",
+        content: "Ginny Weasley"
+      },
+      {
+        type: "wrong",
+        content: "Galvin Gudgeon"
+      },
+      {
+        type: "wrong",
+        content: "Blythe Parkin"
+      }
+    ]
+  },
+  {
+    question: "rue or False: Tonks is a Metamorphmagus.",
+    answers: [
+      {
+        type: "correct",
+        content: "True"
+      },
+      {
+        type: "wrong",
+        content: "False"
+      }
+    ]
+  },
+  {
+    question: "Who wrote Defensive Magical Theory?",
+    answers: [
+      {
+        type: "correct",
+        content: "Wilbert Slinkhard"
+      },
+      {
+        type: "wrong",
+        content: "Ariel Singleton"
+      },
+      {
+        type: "wrong",
+        content: "Galvin Gludgeon"
+      }
+    ]
+  },
+  {
+    question: "What is Umbridge's first lesson titled?",
+    answers: [
+      {
+        type: "correct",
+        content: "A return to basic principles"
+      },
+      {
+        type: "wrong",
+        content: "A return to discipline"
+      },
+      {
+        type: "wrong",
+        content: "A return to structure"
+      }
+    ]
+  },
+  {
+    question: "Who still writes weekly to Gilderoy Lockhart during his permanent stay in St. Mungo's?",
+    answers: [
+      {
+        type: "correct",
+        content: "Luna Lovegood"
+      },
+      {
+        type: "wrong",
+        content: "Gladys Gudgeon"
+      },
+      {
+        type: "wrong",
+        content: "Lavender Brown"
+      }
+    ]
+  },
+  {
+    question: "What did Fred and George treat themselves to after their business started booming?",
+    answers: [
+      {
+        type: "correct",
+        content: "Dragon Skin Suits"
+      },
+      {
+        type: "wrong",
+        content: "A Golden Cauldron"
+      },
+      {
+        type: "wrong",
+        content: "Firebolt"
+      }
+    ]
+  },
+  {
+    question: "True or False: Snape lives in a Muggle Town on Spinner's End.",
+    answers: [
+      {
+        type: "correct",
+        content: "True"
+      },
+      {
+        type: "wrong",
+        content: "False"
+      }
+    ]
+  },
+  {
+    question: "What is Dumbledore's favorite jam flavor?",
+    answers: [
+      {
+        type: "correct",
+        content: "Raspberry"
+      },
+      {
+        type: "wrong",
+        content: "Blackberry"
+      },
+      {
+        type: "wrong",
+        content: "Strawberry"
+      }
+    ]
+  },
+  {
+    question: "What does Ginny call Fleur?",
+    answers: [
+      {
+        type: "correct",
+        content: "Phlegm"
+      },
+      {
+        type: "wrong",
+        content: "Flan"
+      },
+      {
+        type: "wrong",
+        content: "Flour"
+      }
+    ]
+  },
+  {
+    question: "What color are the staff robes at Weasley's Wizard Wheezer?",
+    answers: [
+      {
+        type: "correct",
+        content: "Crimson"
+      },
+      {
+        type: "wrong",
+        content: "Magenta"
+      },
+      {
+        type: "wrong",
+        content: "Neon"
+      }
+    ]
+  },
+  {
+    question: "How much does the book Advanced Potion-Making cost at Flourish and Blotts?",
+    answers: [
+      {
+        type: "correct",
+        content: "9 Galleons"
+      },
+      {
+        type: "wrong",
+        content: "7 Galleons"
+      },
+      {
+        type: "wrong",
+        content: "5 Galleons"
+      }
+    ]
+  },
+  {
+    question: "During what two ages did Slughorn take Felix Felicis?",
+    answers: [
+      {
+        type: "correct",
+        content: "24 and 57"
+      },
+      {
+        type: "wrong",
+        content: "19 and 39"
+      },
+      {
+        type: "wrong",
+        content: "27 and 50"
+      }
+    ]
+  },
+  {
+    question: "How many months does it take to make Felix Felicis?",
+    answers: [
+      {
+        type: "correct",
+        content: "6"
+      },
+      {
+        type: "wrong",
+        content: "3"
+      },
+      {
+        type: "wrong",
+        content: "8"
+      }
+    ]
+  },
+  {
+    question: "How many O.W.L.s. does Ron receive?",
+    answers: [
+      {
+        type: "correct",
+        content: "7"
+      },
+      {
+        type: "wrong",
+        content: "5"
+      },
+      {
+        type: "wrong",
+        content: "8"
+      }
+    ]
+  },
+  {
+    question: "How many O.W.L.s. does Hermione receive?",
+    answers: [
+      {
+        type: "correct",
+        content: "10"
+      },
+      {
+        type: "wrong",
+        content: "12"
+      },
+      {
+        type: "wrong",
+        content: "9"
+      }
+    ]
+  },
+  {
+    question: "How many Shield Hats did the Ministry buy for their support staff, on the initial order?",
+    answers: [
+      {
+        type: "correct",
+        content: "500"
+      },
+      {
+        type: "wrong",
+        content: "350"
+      },
+      {
+        type: "wrong",
+        content: "700"
+      }
+    ]
+  },
+  {
+    question: "Who killed Krum's grandfather?",
+    answers: [
+      {
+        type: "correct",
+        content: "Grindelwald"
+      },
+      {
+        type: "wrong",
+        content: "Voldermort"
+      },
+      {
+        type: "wrong",
+        content: "Dumbledore"
+      }
+    ]
+  },
+  {
+    question: "What is Arthur Weasley's Patronus?",
+    answers: [
+      {
+        type: "correct",
+        content: "A weasel"
+      },
+      {
+        type: "wrong",
+        content: "A gopher"
+      },
+      {
+        type: "wrong",
+        content: "A black swan"
+      }
+    ]
+  },
+  {
+    question: "What is Dolores Umbridge's Patronus?",
+    answers: [
+      {
+        type: "correct",
+        content: "A cat"
+      },
+      {
+        type: "wrong",
+        content: "A dog"
+      },
+      {
+        type: "wrong",
+        content: "A mouse"
+      }
+    ]
+  },
+  {
+    question: "What color robes do Magical Maintenance employees at the Ministry wear?",
+    answers: [
+      {
+        type: "correct",
+        content: "Navy Blue"
+      },
+      {
+        type: "wrong",
+        content: "Lavender"
+      },
+      {
+        type: "wrong",
+        content: "Beige"
+      }
+    ]
+  },
+  {
+    question: "What is the only spell Hermione ever has trouble with?",
+    answers: [
+      {
+        type: "correct",
+        content: "Expecto Patronum"
+      },
+      {
+        type: "wrong",
+        content: "Aguamenti"
+      },
+      {
+        type: "wrong",
+        content: "Oppugno"
+      }
+    ]
+  },
+  {
+    question: "True or false: Harry is a living descendent of Ignotus Peverell.",
+    answers: [
+      {
+        type: "correct",
+        content: "True"
+      },
+      {
+        type: "wrong",
+        content: "False"
+      },
+    ]
+  }
 ];
 
 function shuffleArray(array) {
