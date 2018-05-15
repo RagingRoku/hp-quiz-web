@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-function QuestionCount (props) {
+function QuestionCount({ counter, total }) {
   return (
     <div>
-      Question <span>{props.counter}</span> of <span>{props.total}</span>
+      Question <span>{counter}</span> of <span>{total}</span>
     </div>
   );
 }
