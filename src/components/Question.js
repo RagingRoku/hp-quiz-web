@@ -1,8 +1,8 @@
 import React from 'react';
 
-function Question (props) {
+function Question ({ content }) {
   return (
-    <h2 className="question">{props.content}</h2>
+    <h2 className="question">{content}</h2>
   );
 }
 

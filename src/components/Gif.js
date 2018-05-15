@@ -3,7 +3,6 @@ import React, { Component } from "react";
 class Gif extends Component {
   constructor(props) {
     super(props);
-
     this.pickGif = this.pickGif.bind(this);
   }
 

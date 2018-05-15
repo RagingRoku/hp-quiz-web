@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import QuestionCount from './QuestionCount';
-import AnswerOption from './AnswerOption';
-import Question from './Question';
+import React, { Component } from "react";
+import QuestionCount from "./QuestionCount";
+import AnswerOption from "./AnswerOption";
+import Question from "./Question";
 
 class Quiz extends Component {
   constructor(props) {
