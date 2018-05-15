@@ -12,8 +12,8 @@ through book 7.
 - visit [http://localhost:3000/](http://localhost:3000/)
 
 ## Visit the deployed site
-- visit [Placeholder](http://localhost:3000/)
+- visit [https://hp-quiz.herokuapp.com/](https://hp-quiz.herokuapp.com/)
 
 ## TODO:
-- [ ] Deploy on Heroku
+- [x] Deploy on Heroku
 - [ ] Seperate questions by book
