@@ -68,7 +68,7 @@ const quizQuestions = [
     ]
   },
   {
-    question: "What is one of Dumbledore's favorite Muggle candies?",
+    question: "What is one of Dumbledore's favorite muggle candies?",
     answers: [
       {
         type: "wrong",
@@ -204,7 +204,7 @@ const quizQuestions = [
     ]
   },
   {
-    question: "How much do Beetle Eyes cost (per scoop)?",
+    question: "How much do beetle eyes cost (per scoop)?",
     answers: [
       {
         type: "wrong",
@@ -714,7 +714,7 @@ const quizQuestions = [
     ]
   },
   {
-    question: "What is the name of Percy's owl (He receives it after becoming a Prefect)?",
+    question: "What is the name of Percy's owl (he receives it after becoming a Prefect)?",
     answers: [
       {
         type: "wrong",
@@ -748,7 +748,7 @@ const quizQuestions = [
     ]
   },
   {
-    question: "True or False: Some of Mrs. Figg's cats' names are Tibbles, Snowy, Mr. Paws and Tufty.",
+    question: "True or False: Some of Mrs. Figg's cats names are Tibbles, Snowy, Mr. Paws and Tufty.",
     answers: [
       {
         type: "wrong",
@@ -761,7 +761,7 @@ const quizQuestions = [
     ]
   },
   {
-    question: "Dumbledore's watch has twelve hands; does it have numbers?",
+    question: "Dumbledore's watch has twelve hands - does it have numbers?",
     answers: [
       {
         type: "wrong",
@@ -774,7 +774,7 @@ const quizQuestions = [
     ]
   },
   {
-    question: "In what year were all the possible Quidditch fouls committed (In a single game)?",
+    question: "In what year were all the possible Quidditch fouls committed (in a single game)?",
     answers: [
       {
         type: "wrong",
@@ -1004,7 +1004,7 @@ const quizQuestions = [
     ]
   },
   {
-    question: "In book 3, How many Galleons do the Weasley's win for The Daily Prophet's Grand Prize?",
+    question: "In book 3, how many Galleons do the Weasley's win for The Daily Prophet's Grand Prize?",
     answers: [
       {
         type: "correct",
@@ -1157,7 +1157,7 @@ const quizQuestions = [
     ]
   },
   {
-    question: "What do Madam Maxine's horses only drink?",
+    question: "What do Madam Maxine's horses drink exlusively?",
     answers: [
       {
         type: "correct",
@@ -1327,7 +1327,7 @@ const quizQuestions = [
     ]
   },
   {
-    question: "rue or False: Tonks is a Metamorphmagus.",
+    question: "True or False: Tonks is a Metamorphmagus.",
     answers: [
       {
         type: "correct",
@@ -1399,16 +1399,16 @@ const quizQuestions = [
       },
       {
         type: "wrong",
-        content: "A Golden Cauldron"
+        content: "Golden Cauldrons"
       },
       {
         type: "wrong",
-        content: "Firebolt"
+        content: "Firebolts"
       }
     ]
   },
   {
-    question: "True or False: Snape lives in a Muggle Town on Spinner's End.",
+    question: "True or False: Snape lives in a muggle town on Spinner's End.",
     answers: [
       {
         type: "correct",
@@ -1659,7 +1659,7 @@ const quizQuestions = [
     ]
   },
   {
-    question: "True or false: Harry is a living descendent of Ignotus Peverell.",
+    question: "True or False: Harry is a living descendent of Ignotus Peverell.",
     answers: [
       {
         type: "correct",
