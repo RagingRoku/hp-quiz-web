@@ -590,7 +590,7 @@ const quizQuestions = [
       },
       {
         type: "wrong",
-        content: "Gryfinndor"
+        content: "Gryffyndor"
       }
     ]
   },
@@ -804,7 +804,7 @@ const quizQuestions = [
     ]
   },
   {
-    question: "Asphodel and wormwood make what sleeping potion?",
+    question: "Asphodel and Wormwood make what sleeping potion?",
     answers: [
       {
         type: "wrong",
