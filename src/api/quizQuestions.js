@@ -590,7 +590,7 @@ const quizQuestions = [
       },
       {
         type: "wrong",
-        content: "Gryffyndor"
+        content: "Gryffindor"
       }
     ]
   },

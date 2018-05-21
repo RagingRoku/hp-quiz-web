@@ -12,6 +12,7 @@ through book 7.
 - visit [http://localhost:3000/](http://localhost:3000/)
 
 ## Visit the deployed site
+- Note: please be patient with herokuapp, initial load time might be slow due to using the free service.
 - visit [https://hp-quiz.herokuapp.com/](https://hp-quiz.herokuapp.com/)
 
 ## TODO:

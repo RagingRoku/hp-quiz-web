@@ -6,7 +6,7 @@ body {
   margin: 0;
   padding: 0;
   background: #EFEFEF;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Nixie One', cursive;
 }
 
 .container {
@@ -43,6 +43,7 @@ body {
 /* AnswerOption Component */
 .answerOption {
   border-top: 1px solid #eee;
+  font-family: 'Libre Baskerville', serif;
 }
 
 .answerOption:hover {
